@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="32"
+    android:compileSdkVersionCodename="12"
+    package="com.example.myapplication"
+    platformBuildVersionCode="32"
+    platformBuildVersionName="12">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA" />
+
+    <application
+        android:theme="@ref/0x7f0f01d2"
+        android:label="@ref/0x7f0e001b"
+        android:icon="@ref/0x7f0c0000"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:fullBackupContent="@ref/0x7f110000"
+        android:roundIcon="@ref/0x7f0c0001"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@ref/0x7f110001" />
+</manifest>
